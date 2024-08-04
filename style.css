@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    color: white;
+    height: 5rem;
+    /* trict to center with line height */
+    line-height: 5rem;
+    background-color: #081b31;
+}
+
+/* look here for hovering animation */
+.choice
+{
+    height: 170px;
+    width: 170px;
+    /* to give that thick hover like thing */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.choice:hover{
+    /* opacity: 0.5; */
+    cursor: pointer;
+    background-color: #081b31;
+}
+img{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    /* trick to fit image */
+    object-fit: cover;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    /* vertical */
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+
+#user-score, #comp-score{
+    font-size: 4rem;
+}
+
+.msg-container{
+    margin-top: 5rem;
+}
+
+#msg{
+    background-color: #081b31;
+    font-size: 2rem;
+    color:white;
+    border-radius: 1rem;
+
+    margin-top: 5rem;
+    display: inline;
+    padding: 1rem;
+}
